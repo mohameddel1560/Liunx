@@ -1,17 +1,222 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linux Desktop with Firefox</title>
+    <title>إجابات كريو</title>
     <style>
-        body, html { margin: 0; padding: 0; height: 100%; width: 100%; overflow: hidden; background: #000; }
-        iframe { width: 100%; height: 100%; border: none; }
+        :root {
+            --primary: #2563eb;
+            --secondary: #64748b;
+            --bg: #f8fafc;
+            --card: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* قسم البيانات الشخصية والسؤال */
+        .info-section {
+            background: var(--card);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            margin-bottom: 40px;
+            border-right: 8px solid var(--primary);
+        }
+
+        .info-section h1 {
+            margin-top: 0;
+            color: var(--primary);
+            font-size: 2rem;
+        }
+
+        .data-item {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        .label {
+            font-weight: bold;
+            color: var(--secondary);
+            display: inline-block;
+            min-width: 100px;
+        }
+
+        /* شبكة الصور */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .image-card {
+            background: var(--card);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+        }
+
+        .image-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+        }
+
+        .image-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .image-footer {
+            padding: 12px;
+            text-align: center;
+            background: #f1f5f9;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: var(--secondary);
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 600px) {
+            .info-section { padding: 20px; }
+            .info-section h1 { font-size: 1.5rem; }
+        }
     </style>
 </head>
 <body>
 
-    <iframe src="https://copy.sh/v86/?profile=dsl"></iframe>
+    <div class="container">
+        <header class="info-section">
+            <h1>إجابات كريو</h1>
+            <div class="data-item">
+                <span class="label">السؤال:</
+            <div class="data-item">
+  
+        </header>
+
+        <div class="gallery-grid">
+            
+            <div class="image-card">
+                <img src="https://i.ibb.co/fVwwdgJL/IMG-20260331-105832.jpg" alt="1">
+                <div class="image-footer">الخطوة الأولى</div>
+            </div>
+
+            <div class="image-card">
+                <img src="https://i.ibb.co/PG0V21JP/IMG-20260331-105835.jpg" alt="2">
+                <div class="image-footer">الخطوة الثانية</div>
+            </div>
+
+            <div class="image-card">
+                <img src="https://i.ibb.co/v4whxTKs/IMG-20260331-105839.jpg" alt="3">
+                <div class="image-footer">الخطوة الثالثة</div>
+            </div>
+
+            <div class="image-card">
+                <img src="https://i.ibb.co/vvTxcRRS/IMG-20260331-105843.jpg" alt="4">
+                <div class="image-footer">الخطوة الرابعة</div>
+            </div>
+
+            <div class="image-card">
+                <img src="https://i.ibb.co/DfHnqqxG/IMG-20260331-105846.jpg" alt="5">
+                <div class="image-footer">الخطوة الخامسة</div>
+            </div>
+
+            <div class="image-card">
+                <img src="https://i.ibb.co/sdkV11T0/IMG-20260331-105853.jpg" alt="6">
+                <div class="image-footer">الخطوة السادسة</div>
+            </div>
+
+            <div class="image-card">
+                <img src="https://i.ibb.co/hRKvXT6M/IMG-20260331-105859.jpg" alt="7">
+                <div class="image-footer">الخطوة السابعة</div>
+            </div>
+
+            <div class="image-card">
+                <img src="https://i.ibb.co/39xxmTtr/IMG-20260331-105904.jpg" alt="8">
+                <div class="image-footer">الخطوة الثامنة</div>
+            </div>
+
+            <div class="image-card">
+                <img src="https://i.ibb.co/hqr5jpX/IMG-20260331-105912.jpg" alt="9">
+                <div class="image-footer">الخطوة التاسعة</div>
+            </div>
+
+            <div class="image-card">
+                <img src="https://i.ibb.co/8LdBxdhf/IMG-20260331-105915.jpg" alt="10">
+                <div class="image-footer">الخطوة العاشرة</div>
+            </div>
+
+            <div class="image-card">
+                <img src="https://i.ibb.co/8Dw7GXFd/IMG-20260331-105919.jpg" alt="11">
+                <div class="image-footer">الخطوة الحادية عشر</div>
+            </div>
+
+            <div class="image-card">
+                <img src="https://i.ibb.co/0j0j9G9n/IMG-20260331-105922.jpg" alt="12">
+                <div class="image-footer">الخطوة الثانية عشر</div>
+            </div>
+
+            <div class="image-card">
+                <img src="https://i.ibb.co/rKhrqhkD/IMG-20260331-105926.jpg" alt="13">
+                <div class="image-footer">الخطوة الثالثة عشر</div>
+            </div>
+
+            <div class="image-card">
+                <img src="https://i.ibb.co/20kgMHGg/IMG-20260331-105929.jpg" alt="14">
+                <div class="image-footer">الخطوة الرابعة عشر</div>
+            </div>
+
+            <div class="image-card">
+                <img src="https://i.ibb.co/Q3xF4Zg8/IMG-20260331-105933.jpg" alt="15">
+                <div class="image-footer">الخطوة الخامسة عشر</div>
+            </div>
+
+            <div class="image-card">
+                <img src="https://i.ibb.co/DD3smmxx/IMG-20260331-105936.jpg" alt="16">
+                <div class="image-footer">الخطوة السادسة عشر</div>
+            </div>
+
+            <div class="image-card">
+                <img src="https://i.ibb.co/WNK9hzrj/IMG-20260331-105943.jpg" alt="17">
+                <div class="image-footer">الخطوة السابعة عشر</div>
+            </div>
+
+            <div class="image-card">
+                <img src="https://i.ibb.co/Mk906rXg/IMG-20260331-105946.jpg" alt="18">
+                <div class="image-footer">الخطوة الثامنة عشر</div>
+            </div>
+
+            <div class="image-card">
+                <img src="https://i.ibb.co/tpFZ8Ssz/IMG-20260331-105953.jpg" alt="19">
+                <div class="image-footer">النتيجة النهائية</div>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>تم التصميم باحترافية - جميع الحقوق محفوظة &copy; 2026</p>
+        </footer>
+    </div>
 
 </body>
-</html>
+                </html>
+                    
